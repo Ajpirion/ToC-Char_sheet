@@ -1,0 +1,1005 @@
+
+<table>
+            <!--ToC logo, top-left-->
+            <div class="top">
+                    <tr>
+                        <td><img class="logo" src="https://raw.githubusercontent.com/Ajpirion/ToC-Char_sheet/main/toc_logo_top.png"></td>
+                    </tr>
+            </div>
+                
+            <!--Investigator character info-->      
+        <td class="sheet-left">
+            <div class="sheet-box">
+                <table class="sheet-info-inv">
+                                <tr>
+                                    <td><h1>INVESTIGATOR</h1></td>
+                                </tr>
+                                    <td>
+                            <table>
+                                <tr>
+                                    <td colspan="6"><label class="name">Name</label></td>
+                                    <td><input class="name" type="text" name="attr_name"/></td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td><label>Drive</label></td>
+                                    <td>
+                                    <select name="attr_drive-rolldwn">
+                                        <option>Pick a Drive...</option>
+                                        <option>Adventure</option>
+                                        <option>Antiquarianism</option>
+                                        <option>Arrogance</option>
+                                        <option>Artistic Sensitivity</option>
+                                        <option>Bad Luck</option>
+                                        <option>Curiosity</option>
+                                        <option>Duty</option>
+                                        <option>Ennui</option>
+                                        <option>Follower</option>
+                                        <option>In the Blood</option>
+                                        <option>Power</option>
+                                        <option>Revenge</option>
+                                        <option>Scholarship</option>
+                                        <option>Sudden Shock</option>
+                                        <option>Thirst for Knowledge</option>
+                                        
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Occupation</label></td>
+                                    <td>
+                                    <select name="attr_occup-rolldwn">
+                                        <option>Pick a Occupation...</option>
+                                        <option>Alienist</option>
+                                        <option>Antiquarian</option>
+                                        <option>Archaeologist</option>
+                                        <option>Artist</option>
+                                        <option>Author</option>
+                                        <option>Clergy</option>
+                                        <option>Criminal</option>
+                                        <option>Dilettante</option>
+                                        <option>Doctor</option>
+                                        <option>Hobo</option>
+                                        <option>Journalist</option>
+                                        <option>Military</option>
+                                        <option>Nurse</option>
+                                        <option>Parapsychologist</option>
+                                        <option>Pilot</option>
+                                        <option>Police Detective</option>
+                                        <option>Politician</option>
+                                        <option>Private Investigator</option>
+                                        <option>Professor</option>
+                                        <option>Scientist</option>
+                                        
+                                                  
+                                    </select></td>
+                                </tr>
+                            </table>
+
+                                 <tr>
+                                    <td>
+                            <table>  
+                                    <td><label>----></label><td>
+                                    <td><input type="checkbox" name="attr_skill_credit_rating_pool_occup"></td>
+                                    <td><label class="cred">Credit Rating (Inv)</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_credit_rating_pool"/></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_credit_rating_rating"/></td>
+                            </table>
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <td><label>Occupational Benefits</label></td>
+                                </tr>
+                                <tr>
+                                    <td><textarea name="attr_occup_ben-txtbx"></textarea></td>
+                                </tr>
+                </table>
+            </div>
+
+            <!--Investigator description-->
+            <div class="sheet-box">
+                <table class="sheet-info-desc">
+                <td>
+                            <table>
+                                <tr>
+                                    <td><label>Description</label></td>
+                                </tr>
+                                
+                                <td class="sheet-abil-container sheet-abil-container-left">
+                     
+                        <div class="desc-txtbx">
+                                <textarea name="attr_desc-txtbx" placeholder="Your character description"></textarea>
+                        </div>
+                            <table>
+                                <tr>
+                                    <td><label class="label-b">Age</label></td>
+                                    <td><input type="text" class="number-ahw" name="attr_age" placeholder="000">
+                                    <td><label>yr</label></td>
+                                    <td><label class="label-b">Hgt.</label></td>
+                                    <td><input type="text" class="number-ahw" name="attr_height" placeholder="000">
+                                    <td><label>cm</label></td>
+                                    <td><label class="label-b">Wgt.</label></td>
+                                    <td><input type="text" class="number-ahw" name="attr_weight" placeholder="000">
+                                   <td><label>kg</label></td>
+                                </tr> 
+                            </table>
+                </td>               
+                </table>
+            </div>
+
+    
+            <div class="sheet-box">
+                <table class="sheet-sanity">
+                        <td>
+                            <table> 
+                                <tr>
+                                    <td colspan="1"><h1 class="mc">Mental Condition</h1></td>
+                                    <td><label class="pta">p.</label></td>
+                                    <td><label class="ptb">R.</label></td>  
+                                </tr>
+                            </table>
+                        </td>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td><label class="sasthe">Sanity (Basic Atr. Gen)</label></td>
+                                    <td><input type="text" class="number" name="attr_sanity_pool"/></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_sanity_rating"
+                                        placeholder="1"/></td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_san"></td>
+                                    <td><label class="toti">Total Insanity (pool/p. 0)</label></td>
+                                </tr>
+                            </table>
+                                    
+                    
+                                <tr>
+                                    <td><br><label>Pillars of Sanity</label></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1"><textarea name="attr_pillaars_of_sanity" placeholder="- One important true concept per 3 levels of sanity rating..."></textarea ></td>
+                                </tr>
+                        </td>
+                
+                    <td>
+                        <table>
+                                <tr>
+                                    <td colspan="2"><label class="sasthe">Stability (Basic Atr. Gen)</label></td>
+                                    <td><input type="text" class="numberx" name="attr_stability_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_stability_rating"
+                                        placeholder="4"></td>
+                                </tr>
+                        </table>
+                        <table>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_stab"></td>
+                                    <td><label>Shaken <br>(p. 0 to -5)</label></td>
+                                    <td><input type="checkbox" name="attr_stab2"></td>
+                                    <td><label>Blasted <br>(p. -6 to -11)</label></td>   
+                                </tr>
+                                <tr>
+                                    <td colspan="1"><input type="checkbox" name="attr_stab3"></td>
+                                    <td><label>Insane (p. -12)</label></td>
+                                </tr>
+                                    
+                        </table>
+                        <table>         
+                                <tr>
+                                    <td><br>
+                                        <label>Sources of Stability</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <textarea name="attr_sources_of_stability" placeholder="- One important person per 3 levels of stability rating..."></textarea>
+                                    </td>
+                                </tr>
+                        </table>
+                    </td>
+                
+                                <tr>
+                                    <td>
+                                    <label>Mental Disorders</label></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <textarea name="attr_mental_disorders"></textarea></td>
+                                </tr>
+                </table>
+            </div>
+
+            <div class="sheet-box">
+                <table class="sheet-health">
+                    <td><table> 
+                                <tr>
+                                    <td colspan="1"><h1 class="pc">Physical Condition</h1></td>
+                                    <td><label class="pta">p.</label></td>
+                                    <td><label class="ptb">R.</label></td>  
+                                </tr>
+                        </table>
+                                <tr>
+                                    <td></td>
+                                </tr>
+
+                        <td>
+                            <table>
+                                <tr>
+                                    <td><label class="sasthe">Health (Basic Atr. Gen) </label></td>
+                                    <td><input type="text" class="numberx" name="attr_health_pool"/></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_health_rating"
+                                        placeholder="4"/></td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td colspan="1"><input type="checkbox" name="attr_hlth"></td>
+                                    <td colspan="2"><label>Hurt <br>(p. 0 to -5)</label></td>
+                                    <td colspan="1"><input type="checkbox" name="attr_hlth2"></td>
+                                    <td colspan="2"><label>Wounded <br>(p. -6 to -11)</label></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1"><input type="checkbox" name="attr_hlth3"></td>
+                                    <td colspan="2"><label>Dead (p. -12)</label></td>
+                                </tr>
+                           
+                                <tr>
+                                    <td colspan="6"><br>
+                                        <label>Physical Injuries</label>
+                                        <textarea class="hlt-box" name="attr_skill_physinj"></textarea>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </td>
+                </table>
+            </div>
+        </td>
+
+
+                                    <!--Investigator Abilities-->
+        <td class="sheet-right">
+            <div class="sheet-box">
+                <table class="sheet-abil">
+                                <tr>
+                                    <td colspan="11"><h1>ABILITIES</h1></td>
+                                </tr>
+                    
+                        <td class="sheet-abil-container    sheet-abil-container-left">
+                                
+                            <table>
+
+                                <tr>
+                                    <td colspan="2" class="pc"><h2 class="ab">Academic (Inv)</h2></td>
+                                    <td colspan="2"><label class="ptax">p.</label></td>
+                                    <td colspan="1"><label class="ptbx">R.</label></td>  
+                                        
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_accounting_pool_occupational"></td>
+                                    <td><label class="ablts">Accounting</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_accounting_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_accounting_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_anthropology_pool_occupational"></td>
+                                    <td><label class="ablts">Anthropology</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_anthropology_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_anthropology_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_archeology_pool_occupational"></td>
+                                    <td><label class="ablts">Archeology</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_archeology_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_archeology_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_architecture_pool_occupational"></td>
+                                    <td><label class="ablts">Architecture</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_architecture_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_architecture_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_art_history_pool_occupational"></td>
+                                    <td><label class="ablts">Art History</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_art_history_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_art_history_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_biology_pool_occupational"></td>
+                                    <td><label class="ablts">Biology</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_biology_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_biology_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_cryptography_pool_occupational"></td>
+                                    <td><label class="ablts">Cryptography</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_cryptography_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_cryptography_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_geology_pool_occupational"></td>
+                                    <td><label class="ablts">Geology</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_geology_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_geology_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_history_pool_occupational"></td>
+                                    <td><label class="ablts">History</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_history_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_history_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_languages_pool_occupational"></td>
+                                    <td><label class="ablts">Languages</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_languages_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_languages_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">
+                                        <textarea class="ab-box" name="attr_skill_languages"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_law_pool_occupational"></td>
+                                    <td><label class="ablts">Law</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_law_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_law_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_library_use_pool_occupational"></td>
+                                    <td><label class="ablts">Library Use</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_library_use_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_library_use_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_medicine_pool_occupational"></td>
+                                    <td><label class="ablts">Medicine</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_medicine_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_medicine_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_occult_pool_occupational"></td>
+                                    <td><label class="ablts">Occult</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_occult_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_occult_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_physics_pool_occupational"></td>
+                                    <td><label class="ablts">Physics</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_physics_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_physics_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_politics_pool_occupational"></td>
+                                    <td><label class="ablts">Politics</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_politics_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_politics_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_theology_pool_occupational"></td>
+                                    <td><label class="ablts">Theology</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_theology_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_theology_rating"></td>
+                                </tr>
+                            </table>
+                                    <hr>
+                 
+                            <table>
+
+        
+                                <tr>
+                                    <td colspan="2" class="pc"><h2 class="ab">The Mythos (Inv)</h2></td>
+                                    <td colspan="2"><label class="ptax">p.</label></td>
+                                    <td colspan="1"><label class="ptbx">R.</label></td>  
+                                </tr>
+                          
+                         
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_cthulhu_mythos_pool_occupational"></td>
+                                    <td><label class="ablts">Cthulhu Mythos</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_cthulhu_mythos_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_cthulhu_mythos_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">
+                                    <textarea class="cm-box" name="attr_skill_mythos"></textarea>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2" class="pc"><h2 class="ab">Interpersonal (Inv)</h2></td>
+                                    <td colspan="2"><label class="ptax">p.</label></td>
+                                    <td colspan="1"><label class="ptbx">R.</label></td>  
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_honesty_pool_occupational"></td>
+                                    <td><label class="ablts">As. Honesty</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_assess honesty_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_assess honesty_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_bargain_pool_occupational"></td>
+                                    <td><label class="ablts">Bargain</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_bargain_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_bargain_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_bureaucracy_pool_occupational"></td>
+                                    <td><label class="ablts">Bureaucracy</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_bureaucracy_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_bureaucracy_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_cop_talk_pool_occupational"></td>
+                                    <td><label class="ablts">Cop Talk</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_cop_talk_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_cop_talk_rating"></td>
+                                </tr>
+                              
+
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_flattery_pool_occupational"></td>
+                                    <td><label class="ablts">Flattery</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_flattery_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_flattery_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_interrogation_pool_occupational"></td>
+                                    <td><label class="ablts">Interrogation</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_interrogation_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_interrogation_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_intimidation_pool_occupational"></td>
+                                    <td><label class="ablts">Intimidation</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_intimidation_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_intimidation_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_oral_history_pool_occupational"></td>
+                                    <td><label class="ablts">Oral History</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_oral_history_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_oral_history_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_reassurance_pool_occupational"></td>
+                                    <td><label class="ablts">Reassurance</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_reassurance_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_reassurance_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_streetwise_pool_occupational"></td>
+                                    <td><label class="ablts">Streetwise</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_streetwise_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_streetwise_rating"></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="5"><h2>Contacts & Connections</h2></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">
+                                        <textarea class="cc-box" name="attr_skill_concon"></textarea>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table> 
+                                <tr>
+                                    <td><h2 class="savdp">Saved Pool</h2>
+                                    </td>
+                                    <td><label class="pool">Inv:</label>
+                                    </td>
+                                    <td><input type="text" class="number" name="attr_skill_sinv_pool"></td>
+                                    <td><label class="pool">Gen:</label>
+                                    </td>
+                                    <td><input type="text" class="number" name="attr_skill_sgen_pool"/>
+                                    </td>
+                                </tr>
+                                                   
+                            </table>
+                        </td>
+                        
+                    <td class="sheet-skill-container    sheet-skill-container-right">
+                        <table>
+                            <td>
+                                <tr>
+                                    <td colspan="2" class="pc"><h2 class="abgen" class="ab">General</h2></td>
+                                    <td colspan="2"><label class="ptax">p.</label></td>
+                                    <td colspan="1"><label class="ptbx">R.</label></td>
+                                    <td colspan="1"><label class="ptbxm">m.</label></td> 
+                                    
+                                </tr>
+
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_athletics_pool_occupational"></td>
+                                    <td><label class="ablts">Athletics</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_athletics_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_athletics_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_athletics_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_conceal_pool_occupational"></td>
+                                    <td><label class="ablts">Conceal</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_conceal_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_conceal_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_conceal_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_disguise_pool_occupational"></td>
+                                    <td><label class="ablts">Disguise</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_disguise_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_disguise_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_disguise_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_driving_pool_occupational"></td>
+                                    <td><label class="ablts">Driving</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_driving_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_driving_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_driving_mod"></td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="6">
+                                    <textarea class="ab-box" name="attr_skill_driving"></textarea>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_electrical_repair_pool_occupational"></td>
+                                    <td><label class="ablts">Elec. Rep.</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_electrical_repair_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_electrical_repair_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_electrical_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_explosives_pool_occupational"></td>
+                                    <td><label class="ablts">Explosives</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_explosives_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_explosives_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_explosives_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_filch_pool_occupational"></td>
+                                    <td><label class="ablts">Filch</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_filch_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_filch_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_filch_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_firearms_pool_occupational"></td>
+                                    <td><label class="ablts">Firearms</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_firearms_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_firearms_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_firearms_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_first_aid_pool_occupational"></td>
+                                    <td><label class="ablts">First Aid</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_first_aid_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_first_aid_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_first_aid_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_fleeing_pool_occupational"></td>
+                                    <td><label class="ablts">Fleeing</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_fleeing_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_fleeing_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_fleeing_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_hypnosis_pool_occupational"></td>
+                                    <td><label class="ablts">Hypnosis</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_hypnosis_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_hypnosis_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_hypnosis_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_magic_pool_occupational"></td>
+                                    <td><label class="ablts">Magic</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_magic_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_magic_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_magic_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_mechanical_repair_pool_occupational"></td>
+                                    <td><label class="ablts">Mech. Rep.</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_mechanical_repair_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_mechanical_repair_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_mechanical_repair_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_piloting_pool_occupational"></td>
+                                    <td><label class="ablts">Piloting</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_piloting_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_piloting_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_piloting_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6">
+                                    <textarea class="ab-box" name="attr_skill_piloting"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1"><input type="checkbox" name="attr_skill_preparedness_pool_occupational"></td>
+                                    <td colspan="1"><label class="ablts" >Preparedness</label></td>
+                                    <td colspan="1"><input type="text" class="number" name="attr_skill_preparedness_pool"></td>
+                                    <td colspan="1">/</td>
+                                    <td colspan="1"><input type="text" class="number" name="attr_skill_preparedness_rating">
+                                    </td>
+                                    <td colspan="1"><input type="text" class="number-s" name="attr_skill_preparedness_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_psychoanalysis_pool_occupational"></td>
+                                    <td><label class="ablts">Psychology</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_psychoanalysis_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_psychoanalysis_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_psychoanalysis_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_riding_pool_occupational"></td>
+                                    <td><label class="ablts">Riding</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_riding_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_riding_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_riding_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_scuffling_pool_occupational"></td>
+                                    <td><label class="ablts" >Scuffling</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_scuffling_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_scuffling_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_scuffling_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_sense_trouble_pool_occupational"></td>
+                                    <td><label class="ablts">Sen. Trouble</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_sense_trouble_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_sense_trouble_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_sense_trouble_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_shadowing_pool_occupational"></td>
+                                    <td><label class="ablts">Shadowing</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_shadowing_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_shadowing_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_shadowing_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_stealth_pool_occupational"></td>
+                                    <td><label class="ablts">Stealth</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_stealth_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_stealth_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_stealth_mod"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_weapons_pool_occupational"></td>
+                                    <td><label class="ablts">Weapons</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_weapons_pool"></td>
+                                    <td>/</td>
+                                    <td><input type="text" class="number" name="attr_skill_weapons_rating"></td>
+                                    <td><input type="text" class="number-s" name="attr_skill_weapons_mod"></td>
+                                </tr>
+                            </table>
+    <!--Technical-->
+                            <table>
+                                <tr>
+                                    <td colspan="8"><h2 class="abtch">Technical (Inv)</h2></td>
+                                    <td><label class="ptax">p.</label></td>
+                                    <td><label class="ptbx">R.</label></td>  
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_art_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx">Art</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_art_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_art_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="10">
+                                        <textarea class="ab-box" name="attr_skill_arts"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_astronomy_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx">Astronomy</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_astronomy_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_astronomy_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_chemistry_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx">Chemistry</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_chemistry_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_chemistry_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_craft_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx">Craft</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_craft_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_craft_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="10">
+                                        <textarea class="ab-box" name="attr_skill_crafts"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_evidence_collection_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx">Evidence Col.</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_evidence_col_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_evidence_collection_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_forensics_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx">Forensics</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_forensics_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_forensics_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_locksmith_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx" >Locksmith</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_locksmith_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_locksmith_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_outdoorsman_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx">Out. Survival</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_outdoorsman_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_outdoorsman_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_pharmacy_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx">Pharmacy</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_pharmacy_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_pharmacy_rating"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="attr_skill_photography_pool_occupational"></td>
+                                    <td colspan="7"><label class="abltsx">Photography</label></td>
+                                    <td><input type="text" class="number" name="attr_skill_photography_pool">/</td>
+                                    
+                                    <td><input type="text" class="number" name="attr_skill_photography_rating"></td>
+                                </tr>
+                            
+                                <tr><td><hr></td></tr>
+
+                            </table>
+
+                            <table>
+                                <tr>
+                                    <td colspan="1"><h2 class="frepl">Free Pool:</h2></td>
+                                    <td colspan=""><input type="text" class="numfp" name="attr_skill_free_pool"></td>
+                                </tr>
+                            </table>
+                                
+                                <tr><td><hr></td></tr>
+                                                    
+                        </table>
+                    </td>
+                
+        <tr>  
+                         
+                   
+        <td colspan="7" class="sheet-left-r">
+            <div class="sheet-box">
+                <table class="sheet-coweda">                   
+   
+                        
+                    <td>
+                            <td>
+                                <tr>
+                                    <td colspan="7"><h1>Combat, Weapons & Damage</h1></td>
+                                </tr>
+                                <tr>
+                                    <td><label class="type">Type of attack:</label></td>
+                                    <td colspan="4"><label class="dmg">Dmg:</label></td>
+                                    <td><label class="hit-t">Hit Threshold</label></td>
+                                    <td><input type="text" class="number" name="attr_hit_threshold"></td>
+                            
+                                </tr>
+                                <tr>
+                                    <td><label class="scfdmg">Scuffling (hand-to-hand, range: P.b)</label></td>
+                                    <td colspan="4"><input type="text" class="number-pbx" name="attr_damage_scuf"></td>
+                       
+                                </tr>
+
+                                <tr>
+                                    <td><label class="wefi">Weapons (melee/throw, range: P.b to Ne.)</label></td>
+                            
+                                </tr>
+                                <tr>
+                                    <td><input type="text-f" name="attr_weapon_name_1" class="fullwidth-a"></td>
+                                    <td><input type="text" name="attr_weapon_close_1" class="number-pb">
+                                    </td>
+                          
+                                </tr>
+                                <tr>
+                                    <td><input type="text-f" name="attr_weapon_name_2" class="fullwidth-a"></td>
+                                    <td><input type="text" name="attr_weapon_close_2" class="number-pb"></td>
+                        
+                                </tr>
+                                <tr>
+                                    <td><input type="text-f" name="attr_weapon_name_3" class="fullwidth-a" ></td>
+                                    <td><input type="text" name="attr_weapon_close_2" class="number-pb"></td>
+                                </tr>
+
+                                    <td colspan="7"><hr></td>
+            
+                                <tr>
+                                    <td><label class="wefi">Firearms</label></td>
+                                    <td><label class="pb">P.b</label></td>
+                                    <td><label>Cl.</label></td>
+                                    <td><label>Ne.</label></td>
+                                    <td><label class="lox">Lo.</label></td>
+                                    <td><label class="nts">Notes</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text-f" name="attr_firearm_name_1" class="fullwidth-a"></td>
+                                    <td><input type="text" name="attr_firearm_p-blank_1" class="number-pb"></td>
+                                    <td><input type="text" name="attr_firearm_close_1" class="number"></td>
+                                    <td><input type="text" name="attr_firearm_near_1" class="number"></td>
+                                    <td><input type="text" name="attr_firearm_long_1" class="number"></td>
+                                    <td colspan="2"><input type="text" name="attr_firearm_notes_1"
+                                    class="fullwidth-b"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text-f" name="attr_firearm_name_2" class="fullwidth-a"></td>
+                                    <td><input type="text" name="attr_firearm_p-blank_2" class="number-pb"></td>
+                                    <td><input type="text" name="attr_firearm_close_2" class="number"></td>
+                                    <td><input type="text" name="attr_firearm_near_2" class="number"></td>
+                                    <td><input type="text" name="attr_firearm_long_2" class="number"></td>
+                                    <td colspan="2"><input type="text" name="attr_firearm_notes_2" class="fullwidth-b"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text-f" name="attr_firearm_name_3" class="fullwidth-a" ></td>
+                                    <td><input type="text" name="attr_firearm_p-blank_3" class="number-pb"></td>
+                                    <td><input type="text" name="attr_firearm_close_3" class="number"></td>
+                                    <td><input type="text" name="attr_firearm_near_3" class="number"></td>
+                                    <td><input type="text" name="attr_firearm_long_3" class="number"></td>
+                                    <td colspan="2"><input type="text" name="attr_firearm_notes_3" class="fullwidth-b"></td>
+                                </tr>    
+                            </td>
+                        
+                    </td>
+                </table>
+            
+                              
+    <tr>
+            
+        <td colspan="7" class="sheet-left-r">
+            <div class="sheet-box">
+                <table class="sheet-equip">
+                            <td>
+                                <tr>
+                                    <td colspan="4"><h1>Equipment</h1></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><input type="text-f" name="attr_equipm_1a" class="fullwidth-aeq"></td>
+                                    <td colspan="3"><input type="text-f" name="attr_equipm_1b" class="fullwidth-beq"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><input type="text-f" name="attr_equipm_2a" class="fullwidth-aeq"></td>
+                                    <td colspan="3"><input type="text-f" name="attr_equipm_2b" class="fullwidth-beq"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><input type="text-f" name="attr_equipm_3a" class="fullwidth-aeq"></td>
+                                    <td colspan="3"><input type="text-f" name="attr_equipm_3b" class="fullwidth-beq"></td>
+                                </tr>
+                            </td>         
+                </table>
+            </div>
+        </td>
+    </tr>
+
+    <td colspan="7" class="sheet-left-r">
+        <div class="sheet-box">
+            <table class="sheet-notes">
+                    <td>
+                        <table>
+                            <tr>
+                                <td><h1>Notes</h1></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea class="note-box" name="attr_notes"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                            
+                    </td>         
+            </table>
+        </div>
+    </td>
+       
+<!---
+    <tr> 
+        <td colspan="7" class="sheet-left-r">
+            <div class="sheet-box">
+                <table class="sheet-magts">
+                            <td>
+                                <tr>
+                                    <td colspan=""><h1>Magic, Tomes & Spells</h1></td>
+                                </tr>
+                            </td>     
+                </table>
+            </div>
+        </td>
+    </tr>
+-->    
+       
+    
+
+   
+        
+   
+       
+</div>    
+</td>
+</table>   
