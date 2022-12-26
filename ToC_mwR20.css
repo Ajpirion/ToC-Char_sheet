@@ -1,4 +1,3 @@
-
 /* SCROLLBARS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -42,7 +41,7 @@ h1 {
     font-size: 14px;
     text-align: left;
     padding-left: 4px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 22px;
     line-height: 24px;
     margin-top: 2px;
@@ -56,7 +55,7 @@ h2 {
     font-size: 12px;
     text-align: left;
     padding-left: 4px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 20px;
     line-height: 20px;
     margin-top: 2px;
@@ -74,7 +73,7 @@ textarea {
 input,
 textarea.sheet-hlt-box {
     border-radius: 0;
-    border-bottom: 1px solid #c9a800;
+    border-bottom: 1px solid #AABC5A;
     height: 70px;
     margin: 0px;
     padding: 5px;
@@ -87,7 +86,7 @@ textarea.sheet-hlt-box {
 input,
 textarea.sheet-ab-box {
     border-radius: 0;
-    border-bottom: 1px solid #c9a800;
+    border-bottom: 1px solid #AABC5A;
     height: 42px;
     margin: 0px;
     padding: 5px;
@@ -98,7 +97,7 @@ textarea.sheet-ab-box {
 input,
 textarea.sheet-cm-box {
     border-radius: 0;
-    border-bottom: 1px solid #c9a800;
+    border-bottom: 1px solid #AABC5A;
     height: 80px;
     margin: 0px;
     margin-bottom: 2px;
@@ -110,7 +109,7 @@ textarea.sheet-cm-box {
 input,
 textarea.sheet-cc-box {
     border-radius: 0;
-    border-bottom: 1px solid #c9a800;
+    border-bottom: 1px solid #AABC5A;
     height: 80px;
     margin: 0px;
     margin-bottom: 3px;
@@ -122,7 +121,7 @@ textarea.sheet-cc-box {
 input,
 textarea.sheet-note-box {
     border-radius: 0;
-    border-bottom: 1px solid #c9a800;
+    border-bottom: 1px solid #AABC5A;
     width: 799px;
     height: 65px;
     margin: 0px;
@@ -147,7 +146,7 @@ select {
 input,
 textarea {
     background-color: rgba(255, 255, 255, 0.792);
-    border-bottom: 1px solid #c9a800;
+    border-bottom: 1px solid #AABC5A;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -164,10 +163,10 @@ input[type="number"],
 input.sheet-number {
     background-color: rgba(255, 255, 255, 0.792);
     border-radius: 0;
-    border-top: #c9a70000;
-    border-left: #c9a70000;
-    border-right: #c9a70000;
-    border-bottom: 1px solid #c9a800;
+    border-top: #AABC5A00;
+    border-left: #AABC5A00;
+    border-right: #AABC5A00;
+    border-bottom: 1px solid #AABC5A;
     padding: 2px;
     padding-top: 5px;
     padding-left: 5px;
@@ -180,10 +179,10 @@ input.sheet-number {
 input[type="text-f"] {
     background-color: rgba(255, 255, 255, 0.792);
     border-radius: 0;
-    border-top: #c9a70000;
-    border-left: #c9a70000;
-    border-right: #c9a70000;
-    border-bottom: 1px solid #c9a800;
+    border-top: #AABC5A00;
+    border-left: #AABC5A00;
+    border-right: #AABC5A00;
+    border-bottom: 1px solid #AABC5A;
     padding: 2px;
     padding-top: 5px;
     padding-left: 5px;
@@ -274,13 +273,13 @@ td.sheet-abil-container {
 .sheet-box {
     margin-bottom: 4px;
     border-style: solid;
-    border-width: 48px;
-    border-image: url(https://raw.githubusercontent.com/Ajpirion/ToC-Char_sheet/main/toc_frmbox_b.png) 175 repeat;
+    border-width: 46px;
+    border-image: url(https://raw.githubusercontent.com/Ajpirion/ToC-Char_sheet/main/toc_frmbox_bxb.png) 175 repeat;
 }
 
 .sheet-box > table {
     margin: -30px;
-    width: calc(100% + 60px);
+    width: calc(100% + 58px);
 }
 
 /*--Sheet main colums--*/
@@ -373,7 +372,7 @@ label.sheet-sasthe {
     height: 20px;
     margin-right: 0px;
     margin-left: 0px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     padding-right: 0px;
     padding-left: 3px;
     padding-top: 3px;
@@ -383,7 +382,7 @@ label.sheet-cred {
     width: 155px;
     height: 20px;
     margin-right: 2px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     padding-right: 0px;
     padding-left: 3px;
     padding-top: 3px;
@@ -415,7 +414,7 @@ label.sheet-abnot {
     font-size: 12px;
     font-weight: normal;
     text-align: left;
-    background-color: #dad3b09d;
+    background-color: #AABC5A9d;
     min-width: 450px;
     padding-left: 4px;
     padding-right: 0px;
@@ -428,7 +427,7 @@ label.sheet-cwnot {
     font-size: 12px;
     font-weight: normal;
     text-align: left;
-    background-color: #dad3b09d;
+    background-color: #AABC5A9d;
     width: 390px;
     padding-left: 4px;
     padding-right: 0px;
@@ -440,7 +439,7 @@ h1.sheet-mc {
     font-size: 14px;
     text-align: left;
     padding-left: 4px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 22px;
     line-height: 24px;
     margin-top: 2px;
@@ -454,7 +453,7 @@ h1.sheet-pc {
     font-size: 14px;
     text-align: left;
     padding-left: 4px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 22px;
     line-height: 24px;
     margin-top: 2px;
@@ -468,7 +467,7 @@ h2.sheet-ab {
     font-size: 12px;
     text-align: left;
     padding-left: 4px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 20px;
     line-height: 20px;
     margin-top: 2px;
@@ -502,7 +501,7 @@ h2.sheet-frepl {
 
 label.sheet-pta {
     width: 25px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 22px;
     line-height: 24px;
     margin-left: 0px;
@@ -513,7 +512,7 @@ label.sheet-pta {
 
 label.sheet-ptb {
     width: 24px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 22px;
     line-height: 24px;
     margin-left: 0px;
@@ -523,7 +522,7 @@ label.sheet-ptb {
 
 label.sheet-ptax {
     width: 25px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 20px;
     line-height: 20px;
     margin-left: 0px;
@@ -534,7 +533,7 @@ label.sheet-ptax {
 
 label.sheet-ptbx {
     width: 24px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 20px;
     line-height: 20px;
     margin-left: 0px;
@@ -544,7 +543,7 @@ label.sheet-ptbx {
 
 label.sheet-ptbxm {
     width: 25px;
-    background-color: #c9a7009d;
+    background-color: #AABC5A9d;
     height: 20px;
     line-height: 20px;
     margin-left: 0px;
