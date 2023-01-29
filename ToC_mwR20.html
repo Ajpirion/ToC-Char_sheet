@@ -5,7 +5,7 @@
                 <td><img class="logo" src="https://raw.githubusercontent.com/Ajpirion/ToC-Char_sheet/main/toc_logo_topx.png"></td>
             </tr>
     </div>
-        
+
     <!--Investigator character info-->      
 <td class="sheet-left">
     <div class="sheet-box">
@@ -17,7 +17,7 @@
                     <table>
                         <tr>
                             <td colspan="6"><label class="name">Name</label></td>
-                            <td><input class="name" type="text" name="attr_name"/></td>
+                            <td><input class="name" type="text" name="attr_character_name"/></td>
                         </tr>
                     </table>
                     <table>
@@ -78,7 +78,7 @@
                          <tr>
                             <td>
                     <table>  
-                            <td><label>----></label><td>
+                            <td><label>------></label><td>
                             <td><input type="checkbox" name="attr_skill_credit_rating_pool_occup"></td>
                             <td><label class="cred">Credit Rating (Inv)</label></td>
                             <td><input type="text" class="number" name="attr_skill_credit_rating_pool"/></td>
@@ -265,15 +265,25 @@
 </td>
 
 
-                            <!--Investigator Abilities-->
+                        <!--Investigator Abilities-->
 <td class="sheet-right">
     <div class="sheet-box">
         <table class="sheet-abil">
+                 
+                            </td>
                         <tr>
-                            <td colspan="11"><h1>ABILITIES</h1></td>
+                            <td colspan="0">   
+                                <h1 class="ab_header">ABILITIES</h1>   
+                            </td>
+                            <td colspan="">
+                                <label class="test_dif" name="dif">Difficulty #:</label>
+                                <input class="dif" type="number" name="dif_nr">
+                            </td>
+                           
                         </tr>
+                        
             
-                <td class="sheet-abil-container    sheet-abil-container-left">
+                <td class="sheet-abil-container sheet-abil-container-left">
                         
                     <table>
 
@@ -550,7 +560,9 @@
 
                         <tr>
                             <td><input type="checkbox" name="attr_skill_athletics_pool_occupational"></td>
-                            <td><label class="ablts">Athletics</label></td>
+                            <td><label class="ablts">Athletics
+                                <button class="sheet-d6-dice" type="roll" name="roll_Athletics" value="&{template:custom}  {{title=**Athletics**}} {{TEST ROLL=[[1d6>4+?{Adding pool|1|2|3|4|5|6}+@{skill_athletics_mod}]]}} {{desc=**Description:** @{character_name} Testing general ability +/- m. + pool}}"></button>
+                            </label></td>
                             <td><input type="text" class="number" name="attr_skill_athletics_pool"></td>
                             <td>/</td>
                             <td><input type="text" class="number" name="attr_skill_athletics_rating"></td>
@@ -707,7 +719,8 @@
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="attr_skill_sense_trouble_pool_occupational"></td>
-                            <td><label class="ablts">Sen. Trouble</label></td>
+                            <td><label class="ablts">Sen. Trouble
+                                <button class="sheet-d6-dice" type="roll" name="roll_Sense Trouble" value="&{template:custom} {{title=**Sense Trouble**}} {{TEST ROLL = [[1d6 + @{attr_skill_sense_trouble_mod}]]}} {{desc=**Description:** @{character_name} Testing general ability +/- m.}}"></button></label></td> 
                             <td><input type="text" class="number" name="attr_skill_sense_trouble_pool"></td>
                             <td>/</td>
                             <td><input type="text" class="number" name="attr_skill_sense_trouble_rating"></td>
@@ -977,4 +990,22 @@
 
 </div>    
 </td>
-</table>   
+</table>
+
+<!--ROLLTEMPLATE-->
+
+<rolltemplate class="sheet-rolltemplate-custom">
+  <div class="sheet-container sheet-color-{{color}}">
+    <div class="sheet-header">
+      {{#title}}<div class="sheet-title">{{title}}</div>{{/title}}
+      {{#subtitle}}<div class="sheet-subtitle">{{subtitle}}</div>{{/subtitle}}
+    </div>
+    <div class="sheet-content">
+      {{#allprops() title subtitle desc color}}
+      <div class="sheet-key">{{key}}</div>
+      <div class="sheet-value">{{value}}</div>
+      {{/allprops() title subtitle desc color}}
+      {{#desc}}<div class="sheet-desc">{{desc}}</div>{{/desc}}
+    </div>
+  </div>
+</rolltemplate>
