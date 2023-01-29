@@ -1,3 +1,4 @@
+
 /* SCROLLBARS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -41,21 +42,44 @@ h1 {
     font-size: 14px;
     text-align: left;
     padding-left: 4px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 22px;
     line-height: 24px;
     margin-top: 2px;
     margin-bottom: 3px;
 }
 
-
+label.sheet-test_dif{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: right;
+    padding-left: 4px;
+    padding-right: 6px;
+    background-color: #9BA64Bcb;
+    height: 22px;
+    line-height: 24px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 155px;
+    display: inline-block;
+    
+}
+input[type="number"],
+input.sheet-dif{
+    max-width: 42px;
+    height: 22px;
+    display: inline-block;
+    
+}
 
 h2 {
     font-family:'Courier New', Courier, monospace;
     font-size: 12px;
     text-align: left;
     padding-left: 4px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 20px;
     line-height: 20px;
     margin-top: 2px;
@@ -73,7 +97,7 @@ textarea {
 input,
 textarea.sheet-hlt-box {
     border-radius: 0;
-    border-bottom: 1px solid #AABC5A;
+    border-bottom: 1px solid #9BA64Bcb;
     height: 70px;
     margin: 0px;
     padding: 5px;
@@ -86,7 +110,7 @@ textarea.sheet-hlt-box {
 input,
 textarea.sheet-ab-box {
     border-radius: 0;
-    border-bottom: 1px solid #AABC5A;
+    border-bottom: 1px solid #9BA64Bcb;
     height: 42px;
     margin: 0px;
     padding: 5px;
@@ -97,7 +121,7 @@ textarea.sheet-ab-box {
 input,
 textarea.sheet-cm-box {
     border-radius: 0;
-    border-bottom: 1px solid #AABC5A;
+    border-bottom: 1px solid #9BA64Bcb;
     height: 80px;
     margin: 0px;
     margin-bottom: 2px;
@@ -109,7 +133,7 @@ textarea.sheet-cm-box {
 input,
 textarea.sheet-cc-box {
     border-radius: 0;
-    border-bottom: 1px solid #AABC5A;
+    border-bottom: 1px solid #9BA64Bcb;
     height: 80px;
     margin: 0px;
     margin-bottom: 3px;
@@ -121,7 +145,7 @@ textarea.sheet-cc-box {
 input,
 textarea.sheet-note-box {
     border-radius: 0;
-    border-bottom: 1px solid #AABC5A;
+    border-bottom: 1px solid #9BA64Bcb;
     width: 799px;
     height: 65px;
     margin: 0px;
@@ -146,7 +170,7 @@ select {
 input,
 textarea {
     background-color: rgba(255, 255, 255, 0.792);
-    border-bottom: 1px solid #AABC5A;
+    border-bottom: 1px solid #9BA64Bcb;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -163,10 +187,10 @@ input[type="number"],
 input.sheet-number {
     background-color: rgba(255, 255, 255, 0.792);
     border-radius: 0;
-    border-top: #AABC5A00;
-    border-left: #AABC5A00;
-    border-right: #AABC5A00;
-    border-bottom: 1px solid #AABC5A;
+    border-top: #9BA64B00;
+    border-left: #9BA64B00;
+    border-right: #9BA64B00;
+    border-bottom: 1px solid #9BA64Bcb;
     padding: 2px;
     padding-top: 5px;
     padding-left: 5px;
@@ -179,10 +203,10 @@ input.sheet-number {
 input[type="text-f"] {
     background-color: rgba(255, 255, 255, 0.792);
     border-radius: 0;
-    border-top: #AABC5A00;
-    border-left: #AABC5A00;
-    border-right: #AABC5A00;
-    border-bottom: 1px solid #AABC5A;
+    border-top: #9BA64B00;
+    border-left: #9BA64B00;
+    border-right: #9BA64B00;
+    border-bottom: 1px solid #9BA64Bcb;
     padding: 2px;
     padding-top: 5px;
     padding-left: 5px;
@@ -193,7 +217,7 @@ input[type="text-f"] {
 
 label.sheet-name {
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     width: 40px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -329,7 +353,7 @@ input.sheet-fullwidth-beq {
 
 label {
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     max-width: 360px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -338,7 +362,7 @@ label {
 
 label.sheet-nts {
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     max-width: 360px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -348,7 +372,7 @@ label.sheet-nts {
 
 label.sheet-dmg {
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     width: 32px;
     margin-bottom: 0;
     margin-left: 0px;
@@ -358,7 +382,7 @@ label.sheet-dmg {
 
 label.sheet-label-b {
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     margin-bottom: 0;
     margin-left: 2px;
     padding: 2px;
@@ -372,7 +396,7 @@ label.sheet-sasthe {
     height: 20px;
     margin-right: 0px;
     margin-left: 0px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     padding-right: 0px;
     padding-left: 3px;
     padding-top: 3px;
@@ -382,7 +406,7 @@ label.sheet-cred {
     width: 155px;
     height: 20px;
     margin-right: 2px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     padding-right: 0px;
     padding-left: 3px;
     padding-top: 3px;
@@ -414,7 +438,7 @@ label.sheet-abnot {
     font-size: 12px;
     font-weight: normal;
     text-align: left;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     min-width: 450px;
     padding-left: 4px;
     padding-right: 0px;
@@ -427,7 +451,7 @@ label.sheet-cwnot {
     font-size: 12px;
     font-weight: normal;
     text-align: left;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     width: 390px;
     padding-left: 4px;
     padding-right: 0px;
@@ -439,13 +463,13 @@ h1.sheet-mc {
     font-size: 14px;
     text-align: left;
     padding-left: 4px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 22px;
     line-height: 24px;
     margin-top: 2px;
     margin-bottom: 2px;
     margin-right: none;
-    width: 245px;
+    width: 247px;
 }
 
 h1.sheet-pc {
@@ -453,7 +477,7 @@ h1.sheet-pc {
     font-size: 14px;
     text-align: left;
     padding-left: 4px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 22px;
     line-height: 24px;
     margin-top: 2px;
@@ -467,7 +491,7 @@ h2.sheet-ab {
     font-size: 12px;
     text-align: left;
     padding-left: 4px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 20px;
     line-height: 20px;
     margin-top: 2px;
@@ -501,7 +525,7 @@ h2.sheet-frepl {
 
 label.sheet-pta {
     width: 25px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 22px;
     line-height: 24px;
     margin-left: 0px;
@@ -512,7 +536,7 @@ label.sheet-pta {
 
 label.sheet-ptb {
     width: 24px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 22px;
     line-height: 24px;
     margin-left: 0px;
@@ -522,7 +546,7 @@ label.sheet-ptb {
 
 label.sheet-ptax {
     width: 25px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 20px;
     line-height: 20px;
     margin-left: 0px;
@@ -533,7 +557,7 @@ label.sheet-ptax {
 
 label.sheet-ptbx {
     width: 24px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 20px;
     line-height: 20px;
     margin-left: 0px;
@@ -543,7 +567,7 @@ label.sheet-ptbx {
 
 label.sheet-ptbxm {
     width: 25px;
-    background-color: #AABC5A9d;
+    background-color: #9BA64Bcb;
     height: 20px;
     line-height: 20px;
     margin-left: 0px;
@@ -552,9 +576,9 @@ label.sheet-ptbxm {
 }
 
 label.sheet-ablts {
-    width: 98px;
+    width: 117px;
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     max-width: 360px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -565,18 +589,18 @@ label.sheet-ablts {
 label.sheet-abltsx {
     width: 107px;
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     max-width: 360px;
     margin-top: 2px;
     margin-bottom: 2px;
-    margin-left: 4px;
+    margin-left: 0px;
     padding-right: 0;
 }
 
 label.sheet-pool {
     width: 30px;
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     max-width: 360px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -587,7 +611,7 @@ label.sheet-pool {
 label.sheet-lox {
     width: 32px;
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 4px;
@@ -597,7 +621,7 @@ label.sheet-lox {
 label.sheet-pb {
     width: 32px;
     font-size: 13px;
-    color: #453900c8;
+    color: #272d08;
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 0px;
@@ -609,3 +633,100 @@ hr {
     margin-bottom: 6px;
     visibility: hidden;
 }
+
+/*ROLL TEMPLATE???? */
+
+/* Smaller margins - remove these if you want the huge default left margin */
+.sheet-rolltemplate-custom {
+    margin-left: -37px;
+  }
+  .withoutavatars .sheet-rolltemplate-custom {
+    margin-left: -7px;
+  }
+  
+  .sheet-rolltemplate-custom .sheet-container {
+    border: 2px solid;
+    border-color: var(--header-bg-color);
+  }
+  
+  /* Header formatting - title and subtitle */
+  .sheet-rolltemplate-custom .sheet-header {
+    font-family:'Courier New', Courier, monospace;
+    background-color: var(--header-bg-color);
+    text-align: center;
+    color: var(--header-text-color);
+    padding: 5px;
+  }
+  .sheet-rolltemplate-custom .sheet-title {
+    font-size: 16px;
+  }
+  .sheet-rolltemplate-custom .sheet-subtitle {
+    font-size: 14px;
+  }
+  
+  /* example colors */
+  .sheet-rolltemplate-custom .sheet-container {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-align: left;
+    --header-bg-color: #9BA64Bcb;
+    --header-text-color: #FFF;
+  }
+  .sheet-rolltemplate-custom .sheet-container.sheet-color-red {
+    --header-bg-color: #F00;
+  }
+  .sheet-rolltemplate-custom .sheet-container.sheet-color-green {
+    --header-bg-color: #0F0;
+    --header-text-color: #000;
+  }
+  
+  /* Allprops part */
+  .sheet-rolltemplate-custom .sheet-content {
+    display: grid;
+    background: #FFF;
+    /* Header formatting - modify the column layout below */
+    grid-template-columns: auto auto;
+    /* Line height to match default roll template */
+    line-height: 14px;
+  }
+  .sheet-rolltemplate-custom .sheet-content > div {
+    padding: 5px;
+  }
+  
+  /* Left column */
+  .sheet-rolltemplate-custom .sheet-content .sheet-key {
+    font-weight: bold;
+    padding-right: 10px;
+    text-align: right;
+  }
+  
+  /* Empty rule, use this if you want to change the right column 
+  .sheet-rolltemplate-custom .sheet-value {
+  }
+  */
+  
+  /* Make even-numbered rows grey */
+  .sheet-rolltemplate-custom .sheet-content :nth-child(4n+3),
+  .sheet-rolltemplate-custom .sheet-content :nth-child(4n) {
+    background:#EEE;
+  }
+  
+  /* Description field */
+  .sheet-rolltemplate-custom .sheet-desc {
+    grid-column: span 2;
+    padding: 5px;
+    text-align: center;
+  }
+
+  /* ROLL BUTTONS */
+  .btn.ui-draggable,
+  button[type=roll].sheet-d6-dice::before {
+    height: 4px;
+    width: 1px;
+    vertical-align: top;
+    font-family: 'dicefontd6';
+    font-size: 14px;
+    content: 'F ';
+    border-radius: 1px;
+    position: absolute;
+  }
