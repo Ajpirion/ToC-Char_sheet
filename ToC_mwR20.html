@@ -561,7 +561,7 @@
                         <tr>
                             <td><input type="checkbox" name="attr_skill_athletics_pool_occupational"></td>
                             <td><label class="ablts">Athletics
-                                <button class="sheet-d6-dice" type="roll" name="roll_Athletics" value="&{template:custom}  {{title=**Athletics**}} {{TEST ROLL=[[1d6>4+?{Adding pool|1|2|3|4|5|6}+@{skill_athletics_mod}]]}} {{desc=**Description:** @{character_name} Testing general ability +/- m. + pool}}"></button>
+                                <button class="sheet-d6-dice" type="roll" name="roll_Athletics" value="&{template:custom}  {{title=**Athletics**}} {{TEST ROLL=[[1d6+?{Adding pool|1|2|3|4|5|6}+@{skill_athletics_mod}]]}} {{desc=**Description:** @{character_name} Testing general ability +/- m. + pool}}"></button>
                             </label></td>
                             <td><input type="text" class="number" name="attr_skill_athletics_pool"></td>
                             <td>/</td>
